@@ -34,7 +34,7 @@
                                     <constraint firstAttribute="height" constant="90" id="0vP-a2-RcG"/>
                                     <constraint firstAttribute="width" constant="90" id="mjR-rs-17t"/>
                                 </constraints>
-                                <state key="normal" title="Button" image="nought.png"/>
+                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Ze-CR-X5w"/>
                                 </connections>
@@ -45,7 +45,7 @@
                                     <constraint firstAttribute="height" constant="90" id="6AN-zn-Qgp"/>
                                     <constraint firstAttribute="width" constant="90" id="Pyl-DV-xvf"/>
                                 </constraints>
-                                <state key="normal" title="Button" image="cross.png"/>
+                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tf4-hV-jf8"/>
                                 </connections>
@@ -56,7 +56,7 @@
                                     <constraint firstAttribute="height" constant="90" id="BzJ-Pd-oGr"/>
                                     <constraint firstAttribute="width" constant="90" id="Xia-5h-fgF"/>
                                 </constraints>
-                                <state key="normal" title="Button" image="nought.png"/>
+                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gky-FN-AK1"/>
                                 </connections>
@@ -67,7 +67,7 @@
                                     <constraint firstAttribute="width" constant="90" id="MrM-Es-OlS"/>
                                     <constraint firstAttribute="height" constant="90" id="fal-XO-zqZ"/>
                                 </constraints>
-                                <state key="normal" title="Button" image="nought.png"/>
+                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tNk-rp-Bdl"/>
                                 </connections>
@@ -78,7 +78,7 @@
                                     <constraint firstAttribute="width" constant="90" id="LIO-Oj-mki"/>
                                     <constraint firstAttribute="height" constant="90" id="f4V-n9-pls"/>
                                 </constraints>
-                                <state key="normal" title="Button" image="cross.png"/>
+                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="El7-UX-2qV"/>
                                 </connections>
@@ -89,7 +89,7 @@
                                     <constraint firstAttribute="height" constant="90" id="BnD-NG-sys"/>
                                     <constraint firstAttribute="width" constant="90" id="oHb-cL-ds8"/>
                                 </constraints>
-                                <state key="normal" title="Button" image="nought.png"/>
+                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yVD-78-rX6"/>
                                 </connections>
@@ -100,7 +100,7 @@
                                     <constraint firstAttribute="height" constant="90" id="FZu-j4-Ugx"/>
                                     <constraint firstAttribute="width" constant="90" id="y5J-4H-STs"/>
                                 </constraints>
-                                <state key="normal" title="Button" image="nought.png"/>
+                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AN7-BM-3Hz"/>
                                 </connections>
@@ -111,7 +111,7 @@
                                     <constraint firstAttribute="width" constant="90" id="Vjr-I7-1Sf"/>
                                     <constraint firstAttribute="height" constant="90" id="w6C-yL-4bO"/>
                                 </constraints>
-                                <state key="normal" title="Button" image="cross.png"/>
+                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TdL-n5-VHt"/>
                                 </connections>
@@ -122,7 +122,7 @@
                                     <constraint firstAttribute="height" constant="90" id="JkF-rD-m0I"/>
                                     <constraint firstAttribute="width" constant="90" id="jpp-72-otQ"/>
                                 </constraints>
-                                <state key="normal" title="Button" image="nought.png"/>
+                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aiQ-kL-1DK"/>
                                 </connections>
@@ -170,7 +170,5 @@
     </scenes>
     <resources>
         <image name="board.png" width="744" height="783"/>
-        <image name="cross.png" width="214" height="214"/>
-        <image name="nought.png" width="214" height="214"/>
     </resources>
 </document>
