@@ -13,6 +13,8 @@ class ViewController: UIViewController {
 // 1 for nought and 2 for cross
     var activePlayer = 1 ;
 
+    //Save Game state
+    var gameState = [0,0,0,0,0,0,0,0,0]
 override func viewDidLoad() {
     super.viewDidLoad()
     print("Loaded ")
@@ -22,13 +24,26 @@ override func viewDidLoad() {
 @IBAction func buttonPressed(_ sender: UIButton) {
     print("button pressed \(sender.tag)")
     
-    if activePlayer == 1{
+    let activePosition = sender.tag - 1
+    
+    if gameState[activePosition] == 0 {
+        
+        if activePlayer == 1 {
+            
+            gameState[activePosition] = 1
             sender.setImage(UIImage(named: "nought.png"), for: []);
-         activePlayer = 2;
-    } else {
-        sender.setImage(UIImage(named: "cross.png"), for: []);
-        activePlayer = 1;
+            activePlayer = 2;
+            
+        } else {
+            
+            gameState[activePosition] = 2
+            sender.setImage(UIImage(named: "cross.png"), for: []);
+            activePlayer = 1;
+            
+        }
     }
+    
+   
 }
 
 override func didReceiveMemoryWarning() {
