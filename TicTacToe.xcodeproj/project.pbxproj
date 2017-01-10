@@ -12,6 +12,7 @@
 		B11F92921E248ED700788E65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B11F92901E248ED700788E65 /* Main.storyboard */; };
 		B11F92941E248ED700788E65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B11F92931E248ED700788E65 /* Assets.xcassets */; };
 		B11F92971E248ED700788E65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B11F92951E248ED700788E65 /* LaunchScreen.storyboard */; };
+		B11F929F1E248EEB00788E65 /* tictactoeimages in Resources */ = {isa = PBXBuildFile; fileRef = B11F929E1E248EEB00788E65 /* tictactoeimages */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B11F92931E248ED700788E65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B11F92961E248ED700788E65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B11F92981E248ED700788E65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B11F929E1E248EEB00788E65 /* tictactoeimages */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tictactoeimages; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				B11F92931E248ED700788E65 /* Assets.xcassets */,
 				B11F92951E248ED700788E65 /* LaunchScreen.storyboard */,
 				B11F92981E248ED700788E65 /* Info.plist */,
+				B11F929E1E248EEB00788E65 /* tictactoeimages */,
 			);
 			path = TicTacToe;
 			sourceTree = "<group>";
@@ -124,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B11F92971E248ED700788E65 /* LaunchScreen.storyboard in Resources */,
+				B11F929F1E248EEB00788E65 /* tictactoeimages in Resources */,
 				B11F92941E248ED700788E65 /* Assets.xcassets in Resources */,
 				B11F92921E248ED700788E65 /* Main.storyboard in Resources */,
 			);
