@@ -22,7 +22,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="board.png" translatesAutoresizingMaskIntoConstraints="NO" id="r0a-bY-dkz">
-                                <rect key="frame" x="0.0" y="168.5" width="320" height="231"/>
+                                <rect key="frame" x="0.0" y="169" width="320" height="231"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="231" id="cdf-w8-yYu"/>
                                     <constraint firstAttribute="width" constant="320" id="czL-mX-EfS"/>
@@ -127,6 +127,27 @@
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aiQ-kL-1DK"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nought is Winner . . ." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vUP-b6-7zu">
+                                <rect key="frame" x="9" y="254" width="302" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="6Kd-hv-mPa"/>
+                                    <constraint firstAttribute="width" constant="302" id="HjO-KV-EFg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <color key="textColor" red="0.10093324066677456" green="1" blue="0.23354582639960242" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e0T-CP-A7A">
+                                <rect key="frame" x="115" y="315" width="90" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="WM6-nB-ado"/>
+                                    <constraint firstAttribute="height" constant="30" id="lQT-wW-VcM"/>
+                                </constraints>
+                                <state key="normal" title="Play Again"/>
+                                <connections>
+                                    <action selector="playAgainAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fdw-JU-MGB"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -140,6 +161,8 @@
                             <constraint firstItem="fZT-tJ-g2n" firstAttribute="top" secondItem="8La-g0-bQb" secondAttribute="bottom" constant="27" id="Adb-3Q-ogi"/>
                             <constraint firstItem="8La-g0-bQb" firstAttribute="leading" secondItem="xsr-eG-GLc" secondAttribute="trailing" constant="17" id="EKy-Vt-Tcr"/>
                             <constraint firstItem="eCP-AL-fwq" firstAttribute="leading" secondItem="nsh-pi-vs1" secondAttribute="trailing" constant="15" id="Hg5-ud-FE3"/>
+                            <constraint firstItem="e0T-CP-A7A" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JvT-yo-ehA"/>
+                            <constraint firstItem="e0T-CP-A7A" firstAttribute="top" secondItem="vUP-b6-7zu" secondAttribute="bottom" constant="1" id="Ke3-MM-yCm"/>
                             <constraint firstItem="r0a-bY-dkz" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="MQS-Sq-zIL"/>
                             <constraint firstItem="Tlt-pT-e9T" firstAttribute="leading" secondItem="lhi-XD-5pb" secondAttribute="trailing" constant="15" id="OeH-rl-0Wx"/>
                             <constraint firstItem="eCP-AL-fwq" firstAttribute="leading" secondItem="nsh-pi-vs1" secondAttribute="trailing" constant="15" id="OvM-xz-onw"/>
@@ -149,6 +172,7 @@
                             <constraint firstItem="lhi-XD-5pb" firstAttribute="top" secondItem="Owk-HU-r7w" secondAttribute="bottom" constant="26" id="QRs-PJ-Tw7"/>
                             <constraint firstItem="eCP-AL-fwq" firstAttribute="top" secondItem="fZT-tJ-g2n" secondAttribute="bottom" constant="23" id="Tpv-dO-br6"/>
                             <constraint firstItem="nsh-pi-vs1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VKO-aZ-i3D"/>
+                            <constraint firstItem="vUP-b6-7zu" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="VOl-Jl-vZY"/>
                             <constraint firstItem="Tlt-pT-e9T" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Vu1-wp-Vni"/>
                             <constraint firstItem="fZT-tJ-g2n" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="XfX-Gg-J1B"/>
                             <constraint firstItem="pZA-KA-N63" firstAttribute="top" secondItem="lhi-XD-5pb" secondAttribute="bottom" constant="24" id="bXL-FE-s2n"/>
@@ -159,9 +183,14 @@
                             <constraint firstItem="pZA-KA-N63" firstAttribute="top" secondItem="lhi-XD-5pb" secondAttribute="bottom" constant="24" id="nkg-Zs-i3S"/>
                             <constraint firstItem="nsh-pi-vs1" firstAttribute="top" secondItem="Tlt-pT-e9T" secondAttribute="bottom" constant="24" id="p8K-A0-mVW"/>
                             <constraint firstItem="fZT-tJ-g2n" firstAttribute="top" secondItem="8La-g0-bQb" secondAttribute="bottom" constant="27" id="q89-bT-cGn"/>
+                            <constraint firstItem="vUP-b6-7zu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rgq-nZ-nSG"/>
                             <constraint firstItem="fZT-tJ-g2n" firstAttribute="leading" secondItem="Tlt-pT-e9T" secondAttribute="trailing" constant="19" id="zQ8-Qw-PiG"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="playAgain" destination="e0T-CP-A7A" id="V0X-Fn-mBL"/>
+                        <outlet property="winnerLabel" destination="vUP-b6-7zu" id="8IR-e9-xvN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
